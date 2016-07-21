@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Auto Assign" lan="LAN_PLUGIN_ASSIGN_NAME" version="2.0.2" date="2016-05-28" compatibility="2.0" installRequired="true" >
+	<author name="Barry G4HDU" url="http://www.keal.me.uk" />
+	<summary>Assign new users to a maximum of 5 classes.</summary>
+	<description lan="LAN_PLUGIN_ASSIGN_DIZ">A plugin to automatically assign new users to specified userclasses. Up to 5 classes can be set.</description>
+	<category>users</category>
+	<keywords>
+		<word>assign</word>
+		<word>class</word>
+		<word>userclass</word>
+		<word>user</word>
+		<word>signup</word>
+		<word>join</word>
+	</keywords> 
+	<adminLinks>
+		<link url='admin_config.php' description='Configure Auto Assign' icon='images/assign_32.png' iconSmall='images/assign_16.png' primary='true' >LAN_CONGIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name="assignAuto_Active">0</pref>
+		<pref name="assignAuto_Class1">255</pref>
+		<pref name="assignAuto_Class2">255</pref>
+		<pref name="assignAuto_Class3">255</pref>
+		<pref name="assignAuto_Class4">255</pref>
+		<pref name="assignAuto_Class5">255</pref>
+		<pref name="assignAuto_pref_2">255</pref>
+		<pref name="e_remote">https://raw.githubusercontent.com/G4HDU/auto_assign2/master/plugin.xml</pref>
+		<pref name="e_update">0</pref>
+		<pref name="e_version">0.0.0</pref>
+	</pluginPrefs>
+</e107Plugin>
